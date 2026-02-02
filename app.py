@@ -854,7 +854,7 @@ with tab4:
     st.markdown("---")
 
     # ROI Comparison
-    st.subheader("📈 Return on Investment Comparison")
+    st.subheader("📈 Return on Investment Comparison (25yr)")
 
     roi_data = {
         "Strategy": ["Rent As-Is", "Refurb & Rent", "Sell As-Is", "Refurb & Sell"],
