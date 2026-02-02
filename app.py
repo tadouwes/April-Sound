@@ -89,7 +89,7 @@ st.sidebar.markdown("*Adjust these to model different scenarios*")
 market_return = st.sidebar.slider(
     "Market Portfolio Return (%)",
     min_value=0.0, max_value=15.0, value=6.0, step=0.5,
-    help="Expected annual return if cash is invested in the stock market"
+    help="Expected annual return if cash is invested in the stock market. Applies to sale proceeds (Sell scenarios) and reinvested rental income (Rent scenarios)."
 ) / 100
 
 appreciation = st.sidebar.slider(
